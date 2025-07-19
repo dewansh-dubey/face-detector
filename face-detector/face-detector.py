@@ -2,7 +2,7 @@ import cv2, glob
 
 all_images = glob.glob("*.jpg")
 detect = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-print("project #1")
+
 
 for image in all_images:
     img = cv2.imread(image)
